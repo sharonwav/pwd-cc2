@@ -7,17 +7,414 @@
   --foreground: #171717;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+/* DESKTOP */
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-apercu-pro);
+}
+
+/* NAVBAR */
+
+.nav-container {
+  width: 100%;
+  max-width: 100%;
+  height: 5.5rem;
+  /* padding: 0 13rem; */
+  position: fixed;
+  top: 0;
+  background-color: #ffffff;
+  opacity: 97%;
+}
+
+.btn-sidebar, .btn-sidebar:focus .btn-sidebar:hover {
+  background: none;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+/* BUTTONS */
+
+.btn-black {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 0.6rem 1.3rem;
+  border: 1px solid #000000;
+  border-radius: 0.7rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.btn-black-custom {
+  padding-left: 3.6rem;
+  padding-right: 3.6rem;
+}
+
+.btn-black-thin {
+  padding: 0.5rem 2.7rem;
+}
+
+.btn-black-thin-two {
+  padding: 0.5rem 1rem;
+}
+
+.btn-white-thin {
+  padding: 0.6rem 2.7rem;
+  border-radius: 0.7rem;
+  background-color: #ffffff;
+  color: #191919;
+}
+
+.btn-white-thin-bordered {
+  padding: 0.5rem 1rem;
+  border-radius: 0.7rem;
+  background-color: #ffffff;
+  color: #191919;
+  border: 1px solid #191919;
+}
+
+.btn-black-link {
+  color: #000000;
+  background-color: none;
+  margin: 0;
+}
+
+.btn-white-link {
+  color: #ffffff;
+  background-color: none;
+  margin: 0;
+}
+
+
+
+
+
+/* HEADING */
+
+.h1 {
+ font-size: 5rem;
+ letter-spacing: -4px;
+ line-height: 5rem;
+}
+
+.h1a {
+  font-size: 4rem;
+  letter-spacing: -2px;
+  line-height: 5rem;
+}
+
+.h2 {
+  font-size: 3.6rem;
+  letter-spacing: -1px;
+  line-height: 4rem;
+}
+
+.h3 {
+  font-size: 3rem;
+  letter-spacing: -1px;
+  line-height: 4rem;
+  word-spacing: -2px;
+}
+
+.h6 {
+  font-size: 1.2rem;
+}
+
+.h6a {
+  font-size: 1.15rem;
+}
+
+.h6b {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.text-dp {
+  font-size: 15px;
+}
+
+.text-mini {
+  font-size: 13px;
+}
+
+.text-thin {
+  font-size: 18px;
+}
+
+/* ANIMATION */
+
+.text-anm {
+  transition: transform 0.2s ease-in;
+  display: block;
+}
+
+.text-anm:hover {
+  transform: translateX(10px);
+  cursor: pointer;
+}
+
+.pic-anm {
+  transition: transform 0.2s ease-in;
+  display: block;
+}
+
+.pic-anm:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+/* DROPDOWN COLLAPSE */
+
+.collapse {
+  transition: none;
+}
+
+.collapse-title {
+  padding-right: 0;
+}
+
+/* DIVIDER */
+
+.custom-divider {
+  width: 1px;
+  height: 17rem;
+  background-color: #dbdbdb;
+}
+
+
+
+/* MEGA MENU */
+
+.mega-container {
+  width: 100%;
+  height: min-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mega-menu {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 5rem;
+  background-color: #ffffff;
+  opacity: 97%;
+  visibility: hidden;
+  backdrop-filter: blur(40px);
+  -webkit-backdrop-filter: blur(40px);
+}
+
+.mega-menu.fade-in {
+  visibility: visible;
+}
+
+.mega-menu.fade-out {
+  visibility: hidden;
+}
+
+.arrow {
+  margin-left: 0.5rem;
+  transition: transform 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+}
+
+.arrow-up {
+  transform: scaleY(-1);
+}
+
+/* HOME */
+
+main.home-main {
+  width: 100%;
+  max-width: 100%;
+  height: min-content;
+  background-color: #191919;
+}
+
+section.home-container {
+  width: 100%;
+  max-width: 100%;
+  height: min-content;
+  padding-top: 9rem !important;
+  padding: 0 13rem;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  border-bottom-left-radius: 6rem;
+  border-bottom-right-radius: 6rem;
+}
+
+/* SECTION A */
+
+.home-section-a {
+  width: 100%;
+  max-width: 100%;
+}
+
+.home-section-a-left {
+  width: 50%;
+  max-width: 50%;
+  height: inherit;
+  padding: 1rem;
+
+}
+
+.home-section-a-right {
+  width: 50%;
+  max-width: 50%;
+  height: inherit;
+  padding: 1rem;
+}
+
+.video-container {
+  width: 100%;
+  max-width: 100%;
+}
+
+/* SECTION B */
+
+.home-section-b {
+  width: 100%;
+  max-width: 100%;
+  height: min-content;
+}
+
+.home-section-b-inner {
+  width: 100%;
+  max-width: 100%;
+  height: 100vh;
+  padding: 0 6rem;
+}
+
+.home-section-b-inner-left {
+  width: 50%;
+  max-width: 50%;
+  padding: 3rem;
+  height: 100%;
+}
+
+.home-section-b-inner-right {
+  width: 50%;
+  max-width: 50%;
+  padding: 3rem;
+  height: 100%;
+}
+
+.home-section-b-full {
+  width: 100%;
+  max-width: 100%;
+  height: 100vh;
+  padding: 6rem 0;
+}
+
+.home-section-b-container-peach {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  background-color: #feede9;
+  border-radius: 6rem;
+}
+
+.home-section-b-benefit{
+  width: 100%;
+  max-width: 100%;
+  height: 100vh;
+  padding: 0 1rem;
+}
+
+.home-section-b-link {
+  width: 100%;
+  max-width: 100%;
+  height: 20vh;
+}
+
+.home-section-b-icons {
+  width: 100;
+  max-width: 100%;
+  height: min-content;
+  padding: 5rem 1rem;
+}
+
+.home-section-icon-box {
+  width: 15rem;
+  height: 15rem;
+  background-color: #f7f7f6;
+  border-radius: 3.5rem;
+}
+
+.home-section-b-why-typeform {
+  width: 100%;
+  max-width: 100%;
+  height: min-content;
+  padding: 5rem 1rem;
+}
+
+/* SECTION C */
+
+.home-outer {
+  width: 100%;
+  max-width: 100%;
+  height: 100vh;
+  padding: 5rem 1rem;
+  position: relative;
+}
+
+.home-footer {
+  border-top: 1px solid #3d3d3c;
+  width: 100%;
+  max-width: 100%;
+  height: 6.35rem;
+}
+
+/* ABOUT US */
+
+main.about-us {
+  width: 100%;
+  max-width: 100%;
+  height: min-content;
+  background-color: #191919;
+}
+
+/* TEAMS */
+
+main.teams {
+  width: 100%;
+  max-width: 100%;
+  height: min-content;
+  background-color: #191919;
+}
+
+/* PRODUCT */
+
+main.product {
+  width: 100%;
+  max-width: 100%;
+  height: min-content;
+  background-color: #191919;
+}
+
+.product-box {
+  width: 100%;
+  height: min-content;
+  background-color: #dc8f32;
+  border-radius: 4rem;
+}
+
+/* SERVICES */
+
+main.services {
+  width: 100%;
+  max-width: 100%;
+  height: min-content;
+  background-color: #191919;
+}
+
+@media only screen and (max-width: 769px) {
+  
 }
 
 @layer utilities {
