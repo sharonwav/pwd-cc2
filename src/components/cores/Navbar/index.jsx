@@ -49,7 +49,7 @@ const Navbar = () => {
                             <Link href="/product" className='text-anm'>
                               <div className='flex flex-col'>
                                 <p>Product overview</p>
-                                <label className='text-mini text-gray-500'>What is Typeform?</label>
+                                <label className='text-mini text-gray-500'>Click to check our products!</label>
                               </div>
                             </Link>
                             <Link href="" className='text-anm'>
@@ -131,10 +131,10 @@ const Navbar = () => {
               </svg>
           </div>
             <div className="flex items-center gap-2">
-              <Link href="/home" >Teams</Link>
+              <Link href="/teams" >Teams</Link>
             </div>
             <div className="flex items-center gap-2">
-              <Link href="/home" >Services</Link>
+              <Link href="/services" >Services</Link>
             </div>
           </section>
           <section className="flex items-center gap-4 px-3">
