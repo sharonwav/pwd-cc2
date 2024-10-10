@@ -8,7 +8,7 @@ const AboutUsPage = () => {
       <section className='bg-white pt-[6rem]'>
         <div className='m-auto max-w-screen-xl min-h-min flex flex-col py-[2rem]'>
             <p className='text-black h1 text-center pt-[5rem] pb-[2rem]'>Growing your business is<br/>personal</p>
-            <Image className="py-[3rem]" src={'https://images.ctfassets.net/co0pvta7hzrh/5ZPmo8CWB2TXwpub8Q90Bb/4f1927ac82e93979c273954e8e96203f/About_Inline.webp'} width={1439} height={871}/>
+            <Image className="py-[3rem]" src={'https://images.ctfassets.net/co0pvta7hzrh/5ZPmo8CWB2TXwpub8Q90Bb/4f1927ac82e93979c273954e8e96203f/About_Inline.webp'} width={1439} height={871} alt='Picture'/>
             <div className='flex items-center justify-center w-[100%] py-[5rem]'>
                 <div className='flex flex-col items-start justify-start gap-5'>
                     <p className='text-xl text-gray-500'>
@@ -40,7 +40,7 @@ const AboutUsPage = () => {
             <div className='w-[100%] grid grid-cols-3 gap-8 mt-[12rem] py-[5rem]'>
                 <div className='flex flex-col gap-3'>
                     <div className='flex items-center justify-center w-full h-[220px] bg-[#fde69b] rounded-[1rem]'>
-                        <Image src={'https://images.ctfassets.net/co0pvta7hzrh/3eMobLy5nP4FxAv59RvrcM/d1ba22232274efd38d5c61224456a392/Culture.svg'} width={80} height={80}/>
+                        <Image src={'https://images.ctfassets.net/co0pvta7hzrh/3eMobLy5nP4FxAv59RvrcM/d1ba22232274efd38d5c61224456a392/Culture.svg'} width={80} height={80} alt='Picture'/>
                     </div>
                     <p className='text-xl'>Scalling a meaningful culture</p>
                     <p className='text-thin text-gray-600'>
@@ -55,7 +55,7 @@ const AboutUsPage = () => {
                 </div>
                 <div className='flex flex-col gap-3'>
                     <div className='flex items-center justify-center w-full h-[220px] bg-[#9bcefd] rounded-[1rem]'>
-                        <Image src={'https://images.ctfassets.net/co0pvta7hzrh/2k94xSWaqY6UZbWBGs7Msx/61fa8197841b97afd69691b8ebf9d6be/Slippers.svg'} width={80} height={80}/>
+                        <Image src={'https://images.ctfassets.net/co0pvta7hzrh/2k94xSWaqY6UZbWBGs7Msx/61fa8197841b97afd69691b8ebf9d6be/Slippers.svg'} width={80} height={80} alt='Picture'/>
                     </div>
                     <p className='text-xl'>Make yourself at home</p>
                     <p className='text-thin text-gray-600'>
@@ -72,7 +72,7 @@ const AboutUsPage = () => {
                 </div>
                 <div className='flex flex-col gap-3'>
                     <div className='flex items-center justify-center w-full h-[220px] bg-[#adebe4] rounded-[1rem]'>
-                        <Image src={'https://images.ctfassets.net/co0pvta7hzrh/jXPjKRfPDO2yvIru59dfK/fda3880339035066be96ea68ffff62eb/Flexible.svg'} width={80} height={80}/>
+                        <Image src={'https://images.ctfassets.net/co0pvta7hzrh/jXPjKRfPDO2yvIru59dfK/fda3880339035066be96ea68ffff62eb/Flexible.svg'} width={80} height={80} alt='Picture'/>
                     </div>
                     <p className='text-xl'>Flexibility is king</p>
                     <p className='text-thin text-gray-600'>
@@ -88,7 +88,7 @@ const AboutUsPage = () => {
                 </div>
                 <div className='flex flex-col gap-3'>
                     <div className='flex items-center justify-center w-full h-[220px] bg-[#ecaccc] rounded-[1rem]'>
-                        <Image src={'https://images.ctfassets.net/co0pvta7hzrh/4EE40OiHsHFbAF3ZseVqJs/ac3f38dc8dc5fa624a2eead044c17414/Nationalities.svg'} width={80} height={80}/>
+                        <Image src={'https://images.ctfassets.net/co0pvta7hzrh/4EE40OiHsHFbAF3ZseVqJs/ac3f38dc8dc5fa624a2eead044c17414/Nationalities.svg'} width={80} height={80} alt='Picture'/>
                     </div>
                     <p className='text-xl'>Over 45 nationalities</p>
                     <p className='text-thin text-gray-600'>
@@ -103,7 +103,7 @@ const AboutUsPage = () => {
                 </div>
                 <div className='flex flex-col gap-3'>
                     <div className='flex items-center justify-center w-full h-[220px] bg-[#fdd09b] rounded-[1rem]'>
-                        <Image src={'https://images.ctfassets.net/co0pvta7hzrh/552oyCq4aUNc7TJiYKqmHN/5f68c42a23f8a95339c43a8c2e741d68/Books.svg'} width={80} height={80}/>
+                        <Image src={'https://images.ctfassets.net/co0pvta7hzrh/552oyCq4aUNc7TJiYKqmHN/5f68c42a23f8a95339c43a8c2e741d68/Books.svg'} width={80} height={80} alt='Picture'/>
                     </div>
                     <p className='text-xl'>Keep on learning</p>
                     <p className='text-thin text-gray-600'>

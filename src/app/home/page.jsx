@@ -31,11 +31,11 @@ const HomePage = () => {
         {/* SECTION B */}
         <section className="home-section-b">
           <div className="flex items-center justify-center gap-[6rem] py-[5rem]">
-            <Image src={'https://www.typeform.com/static/homepage/partners/airbnb-logo.svg'} width={100} height={130}/>
-            <Image src={'https://www.typeform.com/static/homepage/partners/mailchimp-logo.svg'} width={100} height={100}/>
-            <Image src={'https://www.typeform.com/static/homepage/partners/hermes-logo.svg'} width={100} height={100}/>
-            <Image src={'https://www.typeform.com/static/homepage/partners/hubspot-logo.svg'} width={100} height={100}/>
-            <Image src={'https://www.typeform.com/static/homepage/partners/barrys-logo.svg'} width={100} height={100}/>
+            <Image src={'https://www.typeform.com/static/homepage/partners/airbnb-logo.svg'} width={100} height={130} alt='Picture'/>
+            <Image src={'https://www.typeform.com/static/homepage/partners/mailchimp-logo.svg'} width={100} height={100} alt='Picture'/>
+            <Image src={'https://www.typeform.com/static/homepage/partners/hermes-logo.svg'} width={100} height={100} alt='Picture'/>
+            <Image src={'https://www.typeform.com/static/homepage/partners/hubspot-logo.svg'} width={100} height={100} alt='Picture'/>
+            <Image src={'https://www.typeform.com/static/homepage/partners/barrys-logo.svg'} width={100} height={100} alt='Picture'/>
           </div>
           <div className="py-[5rem] flex flex-col gap-[5rem]">
             <p className="h2 text-center">
@@ -94,7 +94,7 @@ const HomePage = () => {
                   <p className="h6">Chase Clark, Senior UX Researcher at Calm, explains why they switched to Typeform.</p>
                   <Link href='' className="btn-black btn-black-thin">Read on</Link>
                 </div>
-                <Image src={'https://www.typeform.com/static/homepage-refresh/cta-module/media.webp'} width={467} height={700} className="home-image-section-b" />
+                <Image src={'https://www.typeform.com/static/homepage-refresh/cta-module/media.webp'} width={467} height={700} className="home-image-section-b" alt='Picture' />
               </div>
             </section>
             <section className="home-section-b-benefit flex flex-col gap-[5rem]">
@@ -104,7 +104,7 @@ const HomePage = () => {
               </p>
               <div className="flex items-center justify-center gap-7">
                 <div className="flex flex-col gap-4">
-                  <Image src={'https://www.typeform.com/static/homepage-refresh/product-description/designed-to-attract.webp'} width={500} height={500}/>
+                  <Image src={'https://www.typeform.com/static/homepage-refresh/product-description/designed-to-attract.webp'} width={500} height={500} alt='Picture'/>
                   <div className="flex flex-col">
                     <p className="h6b">Designed to attract</p>
                     <p className="h6a">
@@ -115,7 +115,7 @@ const HomePage = () => {
                   </div>
                 </div>
                 <div className="flex flex-col gap-4">
-                  <Image src={'https://www.typeform.com/static/homepage-refresh/product-description/deeper-insights.webp'} width={500} height={500}/>
+                  <Image src={'https://www.typeform.com/static/homepage-refresh/product-description/deeper-insights.webp'} width={500} height={500} alt='Picture'/>
                   <div className="flex flex-col">
                     <p className="h6b">Gathers deeper insights</p>
                     <p className="h6a">
@@ -126,7 +126,7 @@ const HomePage = () => {
                   </div>
                 </div>
                 <div className="flex flex-col gap-4">
-                  <Image src={'https://www.typeform.com/static/homepage-refresh/product-description/unique-data.webp'} width={500} height={500} />
+                  <Image src={'https://www.typeform.com/static/homepage-refresh/product-description/unique-data.webp'} width={500} height={500} alt='Picture'/>
                   <div className="flex flex-col">
                     <p className="h6b">Prioritizes unique data</p>
                     <p className="h6a">
@@ -151,16 +151,16 @@ const HomePage = () => {
                 </div>
                 <div className="flex items-center justify-center gap-[2rem]">
                   <div className="home-section-icon-box flex items-center justify-center">
-                    <Image src={'https://www.typeform.com/static/homepage-refresh/integrations/zapier-logo.svg'} width={130} height={130}/>
+                    <Image src={'https://www.typeform.com/static/homepage-refresh/integrations/zapier-logo.svg'} width={130} height={130} alt='Picture'/>
                   </div>
                   <div className="home-section-icon-box flex items-center justify-center">
-                    <Image src={'https://www.typeform.com/static/homepage-refresh/integrations/analytics-logo.svg'} width={130} height={130}/>
+                    <Image src={'https://www.typeform.com/static/homepage-refresh/integrations/analytics-logo.svg'} width={130} height={130} alt='Picture'/>
                   </div>
                   <div className="home-section-icon-box flex items-center justify-center">
-                    <Image src={'https://www.typeform.com/static/homepage-refresh/integrations/hubspot-logo.svg'} width={130} height={130}/>
+                    <Image src={'https://www.typeform.com/static/homepage-refresh/integrations/hubspot-logo.svg'} width={130} height={130} alt='Picture'/>
                   </div>
                   <div className="home-section-icon-box flex items-center justify-center">
-                    <Image src={'https://www.typeform.com/static/homepage-refresh/integrations/slack-logo.svg'} width={130} height={130}/>
+                    <Image src={'https://www.typeform.com/static/homepage-refresh/integrations/slack-logo.svg'} width={130} height={130} alt='Picture'/>
                   </div>
                 </div>
               </div>

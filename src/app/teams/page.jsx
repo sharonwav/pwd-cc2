@@ -32,26 +32,26 @@ const TeamsPage = () => {
                 We're a group of remote-first, globally-distributed humans working together to make online interactions... well,<br/>
                 more human. We bet you'll fit right in.
             </p>
-            <Image className="py-[5rem]" src={'https://www.typeform.com/static/careers-page/careers-banner.jpg'} width={1537} height={904}/>
+            <Image className="py-[5rem]" src={'https://www.typeform.com/static/careers-page/careers-banner.jpg'} width={1537} height={904} alt='Picture'/>
             <p className='text-black h1a text-center py-[5rem]'>Get to know us</p>
             <div className='grid grid-cols-2 gap-8 py-[5rem]'>
                 <div className='flex flex-col gap-3'>
-                    <Image src={data} width={458} height={573}/>
+                    <Image src={data} width={458} height={573} alt='Picture'/>
                     <p className='text-xl'>Joaquim Lecha</p>
                     <p className='text-gray-600'>Chief Executive Officer</p>
                 </div>
                 <div className='flex flex-col gap-3'>
-                    <Image src={data} width={458} height={573}/>
+                    <Image src={data} width={458} height={573} alt='Picture'/>
                     <p className='text-xl'>Aleks Bass</p>
                     <p className='text-gray-600'>Chief Product Officer</p>
                 </div>
                 <div className='flex flex-col gap-3'>
-                    <Image src={data} width={458} height={573}/>
+                    <Image src={data} width={458} height={573} alt='Picture'/>
                     <p className='text-xl'>Laura Daniels</p>
                     <p className='text-gray-600'>Chief People Officer</p>
                 </div>
                 <div className='flex flex-col gap-3'>
-                    <Image src={data} width={458} height={573}/>
+                    <Image src={data} width={458} height={573} alt='Picture'/>
                     <p className='text-xl'>Kristen Habacht</p>
                     <p className='text-gray-600'>Chief Revenue Officer</p>
                 </div>

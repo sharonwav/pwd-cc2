@@ -29,7 +29,7 @@ const ServicesPage = () => {
                     decision-making
                 </p>
                 <p className='text-xl'>How Calm tests innovation and brings new features to life with Typeform</p>
-                <Image className="rounded-[4rem]" src={'https://images.ctfassets.net/co0pvta7hzrh/5vQgS5WY7ZereBAIwraZxj/2faa62d5dca04d0b73e27780cee57a88/Typeform-Blog-Header-IS-Calm-Customer-Story.png?fm=webp&q=75&w=2496'} width={832} height={520}/>
+                <Image className="rounded-[4rem]" src={'https://images.ctfassets.net/co0pvta7hzrh/5vQgS5WY7ZereBAIwraZxj/2faa62d5dca04d0b73e27780cee57a88/Typeform-Blog-Header-IS-Calm-Customer-Story.png?fm=webp&q=75&w=2496'} width={832} height={520} alt='Picture'/>
                 <div className='flex flex-col'>
                     <p className='text-[1.8rem]'>
                         "Typeform is great for us because the product is<br/>
@@ -63,7 +63,7 @@ const ServicesPage = () => {
                     Mindfully taking a different<br/>approach
                 </p>
                 <p className='text-xl'>Calm does things a bit differently. Anyone landing on their website will find this:</p>
-                <Image className="" src={'https://images.ctfassets.net/co0pvta7hzrh/7GmpTq7Q2V7qZkrR09RxxO/5ee8272167201a3e8541c3e1b4005d22/Screenshot_2023-02-17_at_5.08.46_PM.png?fm=webp&q=75&w=640'} width={640} height={595}/>
+                <Image className="" src={'https://images.ctfassets.net/co0pvta7hzrh/7GmpTq7Q2V7qZkrR09RxxO/5ee8272167201a3e8541c3e1b4005d22/Screenshot_2023-02-17_at_5.08.46_PM.png?fm=webp&q=75&w=640'} width={640} height={595} alt='Picture'/>
                 <p className='text-xl'>
                     Each button enables app users to "find their calm" by self-selecting care<br />
                     topics. Calm's UI reinforces that the product is about the end-user, not any<br />

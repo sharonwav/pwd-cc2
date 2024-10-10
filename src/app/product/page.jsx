@@ -19,17 +19,17 @@ const ProductPage = () => {
             <div className='flex flex-col items-center justify-center py-[5rem] gap-6'>
                 <p>Rates 4.5 out of 600+ reviews on G2.com and trusted by</p>
                 <div className='flex items-center justify-center gap-[6rem]'>
-                    <Image src={'https://www.typeform.com/static/homepage/partners/airbnb-logo.svg'} width={100} height={130}/>
-                    <Image src={'https://www.typeform.com/static/homepage/partners/mailchimp-logo.svg'} width={100} height={100}/>
-                    <Image src={'https://www.typeform.com/static/homepage/partners/hermes-logo.svg'} width={100} height={100}/>
-                    <Image src={'https://www.typeform.com/static/homepage/partners/hubspot-logo.svg'} width={100} height={100}/>
-                    <Image src={'https://www.typeform.com/static/homepage/partners/barrys-logo.svg'} width={100} height={100}/>
+                    <Image src={'https://www.typeform.com/static/homepage/partners/airbnb-logo.svg'} width={100} height={130} alt='Picture'/>
+                    <Image src={'https://www.typeform.com/static/homepage/partners/mailchimp-logo.svg'} width={100} height={100} alt='Picture'/>
+                    <Image src={'https://www.typeform.com/static/homepage/partners/hermes-logo.svg'} width={100} height={100} alt='Picture'/>
+                    <Image src={'https://www.typeform.com/static/homepage/partners/hubspot-logo.svg'} width={100} height={100} alt='Picture'/>
+                    <Image src={'https://www.typeform.com/static/homepage/partners/barrys-logo.svg'} width={100} height={100} alt='Picture'/>
                 </div>
             </div>
             <p className='h1a mt-[5rem]'>Build forms people fill out</p>
             <div className='grid grid-cols-3 gap-5 py-[5rem]'>
                 <div className='flex flex-col gap-4'>
-                    <Image src={'https://images.ctfassets.net/co0pvta7hzrh/7MiTzHwoxKeQKbY4z5NDFK/f36f7ced773f8fefe197adcbd35a6e05/PhotoBuild_forms_people_.png?fm=webp&q=75&w=500'} width={500} height={500}/>
+                    <Image src={'https://images.ctfassets.net/co0pvta7hzrh/7MiTzHwoxKeQKbY4z5NDFK/f36f7ced773f8fefe197adcbd35a6e05/PhotoBuild_forms_people_.png?fm=webp&q=75&w=500'} width={500} height={500} alt='Picture'/>
                     <p className='text-xl'>Ask questions naturally</p>
                     <p>
                         Make form-filling feel effortless by replacing walls of<br/>
@@ -38,7 +38,7 @@ const ProductPage = () => {
                     </p>
                 </div>
                 <div className='flex flex-col gap-4'>
-                    <Image src={'https://images.ctfassets.net/co0pvta7hzrh/4rhXbbhpaPZQyr5WmLCPvv/835106dedd638c1a92c9161b15602a60/PhotoBuild_forms_people_-1.png?fm=webp&q=75&w=500'} width={500} height={500}/>
+                    <Image src={'https://images.ctfassets.net/co0pvta7hzrh/4rhXbbhpaPZQyr5WmLCPvv/835106dedd638c1a92c9161b15602a60/PhotoBuild_forms_people_-1.png?fm=webp&q=75&w=500'} width={500} height={500} alt='Picture'/>
                     <p className='text-xl'>Match your brand</p>
                     <p>
                         From logos to colors, upload your brand assets to<br/>
@@ -47,7 +47,7 @@ const ProductPage = () => {
                     </p>
                 </div>
                 <div className='flex flex-col gap-4'>
-                    <Image src={'https://images.ctfassets.net/co0pvta7hzrh/5BM15aRzpV1O0UMjhAyXTZ/42ce936e71a3cd5508395267ea2bb5a7/PhotoBuild_forms_people_-2.png?fm=webp&q=75&w=500'} width={500} height={500}/>
+                    <Image src={'https://images.ctfassets.net/co0pvta7hzrh/5BM15aRzpV1O0UMjhAyXTZ/42ce936e71a3cd5508395267ea2bb5a7/PhotoBuild_forms_people_-2.png?fm=webp&q=75&w=500'} width={500} height={500} alt='Picture'/>
                     <p className='text-xl'>Adapt in real-time</p>
                     <p>
                         Treat everyone as individuals so they feel encouraged<br/>
@@ -60,7 +60,7 @@ const ProductPage = () => {
             <p className='h1a mt-[5rem] text-center'>Get more from those<br/>forms</p>
             <div className='grid grid-cols-3 gap-5 py-[5rem]'>
                 <div className='flex flex-col gap-4'>
-                    <Image src={'https://images.ctfassets.net/co0pvta7hzrh/tfzufdXO3yxLEjtcQQpBu/4a26bae0d84cb738c79a32f9c4ba8b74/PhotoGet_more_from_those.png?fm=webp&q=75&w=500'} width={500} height={500}/>
+                    <Image src={'https://images.ctfassets.net/co0pvta7hzrh/tfzufdXO3yxLEjtcQQpBu/4a26bae0d84cb738c79a32f9c4ba8b74/PhotoGet_more_from_those.png?fm=webp&q=75&w=500'} width={500} height={500} alt='Picture'/>
                     <p className='text-xl'>Gather all data types</p>
                     <p>
                         From name and email to ranking and rating, ask your<br/>
@@ -69,7 +69,7 @@ const ProductPage = () => {
                     </p>
                 </div>
                 <div className='flex flex-col gap-4'>
-                    <Image src={'https://images.ctfassets.net/co0pvta7hzrh/gCBb41SzDoDTO6VSKH8HA/fb38f1429e4160e3b309ff3585e6376c/imageproduct_pages.png?fm=webp&q=75&w=500'} width={500} height={500}/>
+                    <Image src={'https://images.ctfassets.net/co0pvta7hzrh/gCBb41SzDoDTO6VSKH8HA/fb38f1429e4160e3b309ff3585e6376c/imageproduct_pages.png?fm=webp&q=75&w=500'} width={500} height={500} alt='Picture'/>
                     <p className='text-xl'>Share where people browse</p>
                     <p>
                         Reach more potential form takers. Paste a link to post<br/>
@@ -78,7 +78,7 @@ const ProductPage = () => {
                     </p>
                 </div>
                 <div className='flex flex-col gap-4'>
-                    <Image src={'https://images.ctfassets.net/co0pvta7hzrh/Tpr4ZZh3H7APk4b6jDVaI/4360bc49f94d8c010064bf6a38f04cb2/PhotoGet_more_from_those-2.png?fm=webp&q=75&w=500'} width={500} height={500}/>
+                    <Image src={'https://images.ctfassets.net/co0pvta7hzrh/Tpr4ZZh3H7APk4b6jDVaI/4360bc49f94d8c010064bf6a38f04cb2/PhotoGet_more_from_those-2.png?fm=webp&q=75&w=500'} width={500} height={500} alt='Picture'/>
                     <p className='text-xl'>Reveal clear insights</p>
                     <p>
                         Make the most of the data you collect. See a detailed<br/>
@@ -90,27 +90,27 @@ const ProductPage = () => {
             <p className='h3 mt-[5rem] text-center'>Easily integrate with all your essential apps</p>
             <div className='flex items-center justify-center gap-[7rem] py-[4rem]'>
                 <div className='flex flex-col items-center justify-center gap-2'>
-                    <Image src={'https://images.ctfassets.net/co0pvta7hzrh/2ce7dpftnIctKE20Kfo0Cl/844de8d5277aee839ec84a964c3852eb/Integration_Logos-zapier.png?fm=webp&q=75'} width={60} height={60}/>
+                    <Image src={'https://images.ctfassets.net/co0pvta7hzrh/2ce7dpftnIctKE20Kfo0Cl/844de8d5277aee839ec84a964c3852eb/Integration_Logos-zapier.png?fm=webp&q=75'} width={60} height={60} alt='Picture'/>
                     <p className='text-mini'>Zapier</p>
                 </div>
                 <div className='flex flex-col items-center justify-center gap-2'>
-                    <Image src={'https://fonts.gstatic.com/s/i/productlogos/sheets_2020q4/v10/192px.svg'} width={60} height={60}/>
+                    <Image src={'https://fonts.gstatic.com/s/i/productlogos/sheets_2020q4/v10/192px.svg'} width={60} height={60} alt='Picture'/>
                     <p className='text-mini'>Google Sheets</p>
                 </div>
                 <div className='flex flex-col items-center justify-center gap-4'>
-                    <Image src={'https://www.typeform.com/static/homepage-refresh/integrations/slack-logo.svg'} width={56} height={56}/>
+                    <Image src={'https://www.typeform.com/static/homepage-refresh/integrations/slack-logo.svg'} width={56} height={56} alt='Picture'/>
                     <p className='text-mini'>Slack</p>
                 </div>
                 <div className='flex flex-col items-center justify-center gap-2'>
-                    <Image src={'https://www.typeform.com/static/homepage-refresh/integrations/analytics-logo.svg'} width={56} height={56}/>
+                    <Image src={'https://www.typeform.com/static/homepage-refresh/integrations/analytics-logo.svg'} width={56} height={56} alt='Picture'/>
                     <p className='text-mini'>Google Analytics</p>
                 </div>
                 <div className='flex flex-col items-center justify-center gap-2'>
-                    <Image src={'https://www.typeform.com/static/homepage-refresh/integrations/hubspot-logo.svg'} width={56} height={56}/>
+                    <Image src={'https://www.typeform.com/static/homepage-refresh/integrations/hubspot-logo.svg'} width={56} height={56} alt='Picture'/>
                     <p className='text-mini'>Hubspot</p>
                 </div>
                 <div className='flex flex-col items-center justify-center gap-5'>
-                    <Image src={'https://a.sfdcstatic.com/shared/images/c360-nav/salesforce-with-type-logo.svg'} width={60} height={60}/>
+                    <Image src={'https://a.sfdcstatic.com/shared/images/c360-nav/salesforce-with-type-logo.svg'} width={60} height={60} alt='Picture'/>
                     <p className='text-mini'>HubSpot</p>
                 </div>
             </div>
@@ -120,7 +120,7 @@ const ProductPage = () => {
             </div>
             <div className='flex items-center justify-center w-[100%]'>
                 <div className='w-[50%] flex items-center justify-center'>
-                    <Image src={'https://images.ctfassets.net/co0pvta7hzrh/9kClHUZx6LdyM2FzEQIsu/0c31157d2f2f178affdc6f3869b7bf14/optimizing.png?fm=webp&q=75'} width={581} height={581}/>
+                    <Image src={'https://images.ctfassets.net/co0pvta7hzrh/9kClHUZx6LdyM2FzEQIsu/0c31157d2f2f178affdc6f3869b7bf14/optimizing.png?fm=webp&q=75'} width={581} height={581} alt='Picture'/>
                 </div>
                 <div className='w-[50%] flex items-center justify-center'>
                     <div className='flex flex-col items-start justify-center gap-3'>
@@ -149,12 +149,12 @@ const ProductPage = () => {
                     </div>
                 </div>
                 <div className='w-[50%] flex items-center justify-center'>
-                    <Image src={'https://images.ctfassets.net/co0pvta7hzrh/6ExDP9cZBPdZ0938MFVolW/499fd587e75e56722639ee1c1f00a815/Photo-CALM.png?fm=webp&q=75'} width={479} height={599}/>
+                    <Image src={'https://images.ctfassets.net/co0pvta7hzrh/6ExDP9cZBPdZ0938MFVolW/499fd587e75e56722639ee1c1f00a815/Photo-CALM.png?fm=webp&q=75'} width={479} height={599} alt='Picture'/>
                 </div>
             </div>
             <div className='flex items-center justify-center w-[100%] my-[3rem]'>
                 <div className='w-[50%] flex items-center justify-center'>
-                    <Image src={'https://images.ctfassets.net/co0pvta7hzrh/4gI2IjIMLr41rIdAmWpfSz/84a0ed851ed1900009bdfa2d0263688a/enterprise_product_overview.png?fm=webp&q=75'} width={581} height={581}/>
+                    <Image src={'https://images.ctfassets.net/co0pvta7hzrh/4gI2IjIMLr41rIdAmWpfSz/84a0ed851ed1900009bdfa2d0263688a/enterprise_product_overview.png?fm=webp&q=75'} width={581} height={581} alt='Picture'/>
                 </div>
                 <div className='w-[50%] flex items-center justify-center'>
                     <div className='flex flex-col items-start justify-center gap-3'>

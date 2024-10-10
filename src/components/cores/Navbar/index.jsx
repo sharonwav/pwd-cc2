@@ -111,7 +111,7 @@ const Navbar = () => {
                               <p>TEMPLATES</p>
                             </div>
                             <Link href="" className='pic-anm'>
-                              <Image src={'https://images.ctfassets.net/co0pvta7hzrh/7s4w7jgt3r5jaSwwhvqsJV/4b7f819eb707b4ead8652c803203224d/templates-image.webp'} width={256} height={166} />
+                              <Image src={'https://images.ctfassets.net/co0pvta7hzrh/7s4w7jgt3r5jaSwwhvqsJV/4b7f819eb707b4ead8652c803203224d/templates-image.webp'} width={256} height={166} alt='Picture'/>
                             </Link>
                             <Link href="" className='text-anm'>
                               <div className='flex flex-col'>
@@ -156,7 +156,7 @@ const Navbar = () => {
               <div className="drawer-content">
                 {/* Page content here */}
                 <label htmlFor="my-drawer-4" className="drawer-button btn-sidebar">
-                  <Image src={'data:image/svg+xml,%3Csvg%20id%3D%22open-menu-svg%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20fill%3D%22none%22%20viewBox%3D%220%200%2024%2024%22%20class%3D%22sc-e24d66a6-3%20VLDjt%22%3E%3Cpath%20stroke%3D%22currentColor%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20stroke-width%3D%222%22%20d%3D%22M4%207h16M4%2012.5h16M4%2018h16%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E'} width={24} height={24}/>
+                  <Image src={'data:image/svg+xml,%3Csvg%20id%3D%22open-menu-svg%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20fill%3D%22none%22%20viewBox%3D%220%200%2024%2024%22%20class%3D%22sc-e24d66a6-3%20VLDjt%22%3E%3Cpath%20stroke%3D%22currentColor%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20stroke-width%3D%222%22%20d%3D%22M4%207h16M4%2012.5h16M4%2018h16%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E'} width={24} height={24} alt='Picture'/>
                 </label>
               </div>
               <div className="drawer-side">
@@ -187,7 +187,7 @@ const Navbar = () => {
               <div className="drawer-content">
                 {/* Page content here */}
                 <label htmlFor="my-drawer-4" className="drawer-button btn-sidebar">
-                  <Image src={'data:image/svg+xml,%3Csvg%20id%3D%22open-menu-svg%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20fill%3D%22none%22%20viewBox%3D%220%200%2024%2024%22%20class%3D%22sc-e24d66a6-3%20VLDjt%22%3E%3Cpath%20stroke%3D%22currentColor%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20stroke-width%3D%222%22%20d%3D%22M4%207h16M4%2012.5h16M4%2018h16%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E'} width={24} height={24}/>
+                  <Image src={'data:image/svg+xml,%3Csvg%20id%3D%22open-menu-svg%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20fill%3D%22none%22%20viewBox%3D%220%200%2024%2024%22%20class%3D%22sc-e24d66a6-3%20VLDjt%22%3E%3Cpath%20stroke%3D%22currentColor%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20stroke-width%3D%222%22%20d%3D%22M4%207h16M4%2012.5h16M4%2018h16%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E'} width={24} height={24} alt='Picture'/>
                 </label>
               </div>
               <div className="drawer-side">
